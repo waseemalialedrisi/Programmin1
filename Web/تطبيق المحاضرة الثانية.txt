@@ -1,0 +1,173 @@
+الصفحة الاولى حق القوائم
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>web design</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>HAVASCRIPT</li>
+        <li>JQUERY</li>
+        <li>BOOTSTRAP</li>
+    </ul>
+    <h3>steps writting.afrist program</h3>
+    <ol>
+        <li>open notepad</li>
+        <li>write html code</li>
+        <li>save apage with in html extention</li>
+        <li>open your page pye google chrome</li>
+    </ol>
+    <hr>
+    <ul>
+        <li>web design</li>
+        <ol type="a">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ol>
+        <li>web aplications</li>
+        <li>informations system</li>
+    </ul>
+    <hr>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HYPER TEXT MARKUPLANGUGE</dd>
+        <dt>CSS</dt>
+        <dd>CASCADING STYLE SHEET</dd>
+    </dl>
+    <hr>
+    <img src="images (10).jpeg" style="width: 10%;">
+    <figcaption>photo mouse</figcaption>
+    <hr>
+    <img src="images (10).jpeg" style="width: 50%;">
+</body>
+</html>
+
+===================================================
+
+الصفحة الثانية حق الصور مكونات لبحلسوب لوحة مفاتيح ومدري ويش عاد!
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <img src="images (16).jpeg" style="width: 10%;">
+    <ul>
+        <li><a href="الصفحة الاولى.html">الرئيسية</a></li>
+        <li><a href="الصفحة الاولى.html">القائمة</a></li>
+        <li><a href="الصفحة الاولى.html">من نحن</a></li>
+        <li><a href="Tel:+967714864221">اتصل بنا</a></li>
+    </ul>
+    <br>
+    <img src="images (26).jpeg" style="width: 10;">
+    <ul>
+        <li>وحدات ادخال</li>
+        <li>وحدات نضام ومعالجة</li>
+        <li>وحدات اخراج</li>
+    </ul>
+    <br>
+    <img src="images (7).jpeg" style="width: 10;">
+    <h2 dir="rtl">لوحة المفاتيح</h2>
+    <p>تقوم بادخال البيانات من حروف وارقام ورموز واومر</p>
+    <br>
+    <img src="images (28).jpeg" style="width: 10;">
+    <h2>وحدة الكهرباء</h2>
+    <p>وهي التي تغذي وحدة النضام بالطاقة الكهربائية بشكل منتضم</p>
+    <br>
+    <img src="images (10).jpeg" style="width: 10%;">
+    <h2>الشاشة</h2>
+    <p>تقوم بعرض البيانات والبرامج المخزنة داخل الحاسوب مثل : البرامج التطبيقية والافلام والالعاب</p>
+    <hr>
+    <br>
+    <img src="images (8).jpeg" style="width: 10%;">
+    <h2>القرص الصلب</h2>
+    <p>هو وحدة التخزين الرئيسية في الحاسوب ويشبة ذاكرة الانسان ويتم تخزينة وحفض البيانات فية مثل الملفات والمجلدات والصور</p>
+    <ul>
+        <li>احمد : <span>777894936</span></li>
+        <li>محمد : <span>714565436</span></li>
+        <li>خالد : <span>773289436</span></li>
+        <li>حسن : <span>738179436</span></li>
+    </ul>
+    <hr>
+</body>
+</html>
+===================================================
+
+الصفحة الثالثة حق الروابط
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <a href="https://www.google.com">google</a>
+    <a href="https://www.google.com">
+        <img src="images (10).jpeg" alt="None">
+    </a>
+    <ul>
+        <li><a href="https://www.facebook.com">facebook</a></li>&nbsp;&nbsp;
+    </ul>
+    <a href="اتصل بنا.html">اتصل بنا</a>&nbsp;&nbsp;
+    <a href="#waseem">لغة html</a>&nbsp;&nbsp;
+    <a href="اتصل بنا.html#account">انشاء حساب</a>&nbsp;&nbsp;
+    <a href="اتصل بنا.html"> اتصل بنا</a>&nbsp;&nbsp;
+    <a href="اتصل بنا.html"> اتصل بنا</a>&nbsp;&nbsp;
+    <a href="اتصل بنا.html"> اتصل بنا</a>&nbsp;&nbsp;
+    <a href="اتصل بنا.html"> اتصل بنا</a>&nbsp;&nbsp;
+    <hr>
+    <a href="mail to:waaliedresy@hotmail.com">gmail</a>&nbsp;&nbsp;
+    <hr>
+    <a href="tel:+967715913677">للتواصل معنا على الرقم +967715913677</a>&nbsp;&nbsp;
+    <hr>
+    <div id="waseem">
+        <h3>HTML</h3>
+        <p>هي اللغة الام الاساسية لتصميم صفحات الويب</p>
+    </div>
+    
+    <footer>
+        <iframe src="اتصل بنا.html"></iframe>
+        <p>جميع الحقوق محفوضة</p>
+        <address>تم تصميم الموقع بواسطة م:وسيم الادريسي</address>
+        <time>سبتمبر 5,2024</time>
+    </footer>
+</body>
+</html>
+
+===================================================
+
+الصفحة حق اتصل بنا
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <h2>صفحة اتصل بنا</h2>
+    <br><br><br><br><br><hr>
+    <a href="الصفحة الثالثة.html">للرجوع للصفحة الاولى</a>&nbsp;&nbsp;
+    
+    <div id="account">
+        انشاء حساب
+    </div>
+    
+</body>
+</html>

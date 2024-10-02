@@ -1,0 +1,163 @@
+الصفحة الاولى حق الاستمارة 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <fieldset>
+        <legend>استمارة تسجيل في دورة صيانة الموبايل</legend>
+        <div>
+            <label for="na">اسم الطالب :</label>
+            <input type="text" id="na" autofocus>
+            <br><br>
+            <label for="ag">عمر الطالب :</label>
+            <input type="text" id="ag">
+            <br><br>
+        </div>
+        <div>
+            <label> الجنس :</label>
+            <input type="radio" name="g" value="ذكر">
+            <label for="g">ذكر</label>
+            <input type="radio" name="g" value="انثى">
+            <label for="g">انثى</label>
+        </div>
+        <br>
+        <div>
+            <label>الصورة الشخصية : </label>
+            <input type="file" name="اختيار الملف">
+        </div>
+        <br>
+        <div>
+            <label for="mo">المؤهل التعليمي : </label>
+            <input type="text" id="mo">
+        </div>
+        <br>
+        <div>
+            <label for="std_year">سنة التخرج : </label>
+            <select id="std_year">
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="col">لونك المفضل : </label>
+            <input type="color" id="col">
+        </div>
+        <div>
+            <h3>الغات البرمجية المستخدمة:</h3>
+            <input type="checkbox" value="c++" id="langu1">
+            <label for="langu1">c++</label>
+            <br>
+            <input type="checkbox" value="c#" id="langu2">
+            <label for="langu2">c#</label>
+            <br>
+            <input type="checkbox" value="php" id="langu3">
+            <label for="langu3">php</label>
+            <br>
+            <input type="checkbox" value="pythone" id="langu4">
+            <label for="langu4">pythone</label>
+            <br>
+            <input type="checkbox" value="java" id="langu5">
+            <label for="langu5">java</label>
+            <br>
+            <input type="checkbox" value="XML" id="langu6">
+            <label for="langu6">XML</label>
+        </div>
+        <br>
+        <div>
+            <label>الفترة : </label>
+            <input type="radio" value="صباحاً" id="12" name="was">
+            <label for="12">صباحاً</label>
+            <input type="radio" value="مساءً" id="13" name="was">
+            <label for="13">مساءً</label>
+        </div>
+        <br>
+        <div>
+            <label>رسالة</label>
+            <textarea cols="50" rows="5" placeholder="معى تحيات وسيم الادريسي."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="تسجيل" >
+            <input type="reset" value="إلغاء">
+            <button>تعديل</button>
+            <button>عرض</button>
+            <button>طباعة</button>
+        </div>
+    </fieldset>
+</body>
+</html>
+
+===============================================================
+الصفحة الثانية حق الجداول
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    
+    <table border="2">
+        <caption>بيانات التسجيل</caption>
+        <tr>
+            <th colspan="2">الرقم</th>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th colspan="2">الاسم</th>
+            <td>وسيم</td>
+        </tr>
+        <tr>
+            <th rowspan="2">العنوان</th>
+            <th>المدينة</th>
+            <td>الضالع</td>
+        </tr>    
+        <tr>
+            <th>الشارع</th>
+            <td>اليمن هههه</td>
+        </tr>
+    </table>
+    <hr>
+
+    <table border="2">
+        <caption>بيانات التسجيل</caption>
+        <tr>
+            <th rowspan="2">الاسم</th>
+            <th rowspan="2">العمر</th>
+            <th colspan="2">العنوان</th>
+        </tr>
+        <tr>
+            <th>المدينة</th>
+            <th>الشارع</th>
+        </tr>
+        <tr>
+            <td>وسيم</td>
+            <td>22</td>
+            <td>الضالع</td>
+            <td>مافي شارع</td>
+        </tr>    
+        <tr>
+            <th colspan="4" align="right">اضافة</th>
+        </tr>
+    </table>
+    
+    <hr>
+    
+    <audio controls autoplay src="عبدالله ال فروان - مغرم وأحبك _ شيلات جديده 2023(MP3_160K).mp3"></audio>
+    
+    <hr>
+
+    <video controls autoplay width="400px" height="200px" src="Metasploit Course -  دورة اختبار اختراق مع الميتاسبلويت.mp4"></video>
+
+</body>
+</html>
